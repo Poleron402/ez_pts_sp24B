@@ -8,7 +8,13 @@ Let's say you made an important change worth being merged into main. You would i
 This pops up when the branch has something different in it from main. Click the Compare & Pull request button. This will take you to the window where you can describe what changes you made.
 
 <img width="600" alt="Screenshot 2024-04-17 at 12 35 05 PM" src="https://github.com/Poleron402/ez_pts_sp24B/assets/89750832/78434a4e-a392-418a-a8ca-b7d336c3a0fb"><br>
-If you have protections set on main branch (ideally), you will not be able to merge on your own - your teammate will have to approve the merge (or, in work setting, a senior developer). Now create the pull request. The following window will pop up. If there are conflicts, which there are non atm, they would need to be resolved, but for simplicity, my change was just adding a comment. 
+If you have protections set on main branch (ideally), you will not be able to merge on your own - your teammate will have to approve the merge (or, in work setting, a senior developer). Now create the pull request. The following window will pop up. If there are conflicts (which there are none at the moment), they would need to be resolved locally. My usual ritual for resolving is: 
+1. On local, `git checkout main`,
+2. `git pull origin main` to make sure all is up to date,
+3. `git merge feature_branch` into main (we are mimicking what is happening on remote). This will let you know that there are merge conflicts and prompt you to resolve them by picking the version of the files or individual lines of code that is best. Remember, though, to be mindful, as merge conflicts appear when two developers modified the same file with `main` being the recent common ancestor.
+4. Then, `git checkout feature_branch` again, since this is the branch we are merging on the remote.
+5. `git push origin feature_branch`. Merge conflict message should be gone :)
+
 <br>
 <img width="600" alt="Screenshot 2024-04-17 at 12 35 45 PM" src="https://github.com/Poleron402/ez_pts_sp24B/assets/89750832/314c8251-32c3-4030-afbc-dbc9c7c860c2">
 <br>
