@@ -1,5 +1,5 @@
 # Pull requests and GitHub issues
-## PR's (sorry for spelling)
+## PR's
 Pull requests (PRs) are like merging to main on Local, but better, since, in a collaborative setting, it allows for code review.
 Let's say you made an important change worth being merged into main. You would inevitably push it to the remote development branch, and will see a popup that looks like the following image.
 <br>
