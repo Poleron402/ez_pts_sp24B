@@ -23,8 +23,7 @@ Click merge.
 <img width="600" alt="Screenshot 2024-04-17 at 12 35 56 PM" src="https://github.com/Poleron402/ez_pts_sp24B/assets/89750832/117fa775-26af-4566-832f-b6468731f189">
 <br>
 And confirm. Now your remote has branches for development, and the main is up to date so your collaborators can pull the most recent changes on their local project.
-
-<hr>
+----------------------------------------------------------------------------------------------------
 ## Issues
 Think of issues as of a TODO list but in a GitHub fashion. Issues allow you to pile up your Project TODOs and ideas into one spot.
 Let's create one<br>
@@ -34,9 +33,9 @@ The next screen will have a big green button that prompts to add a new issue, cl
 Make it descriptive. Now, upon accessing issues tab again, you will see a list of issues that need attention. <br>
 <img width="800" alt="Screenshot 2024-04-17 at 8 14 20 PM" src="https://github.com/Poleron402/ez_pts_sp24B/assets/89750832/a597e641-f539-432d-a115-cb7a6492470c"><br>
 We can assign that issue to someone to resolve, add flags, or resolve them later.
-For example, one issue was to finish this readme, and I'll count it as documentation related. Some other issues could be solving a bug -- for example, imagine you have a null pointer exception occuring somewhere in your program. You can create an issue, tag it as a bug, and assign it to your teammate for resolution. <br>
+For example, one issue was to finish this readme, and I'll count it as documentation-related. Some other issues could be solving a bug -- for example, imagine you have a null pointer exception occuring somewhere in your program. You can create an issue, tag it as a bug, and assign it to your teammate for resolution. <br>
 <img width="800" alt="Screenshot 2024-04-17 at 8 14 25 PM" src=https://github.com/Poleron402/ez_pts_sp24B/assets/89750832/0208d479-3799-43b2-a1f3-a8301bdc2b5e">
 
 
 <br>
-PRs and Issues are great addition to your project as they help with organization and facilitate best practices.
+PRs and Issues are great addition to your project as they help with organization and facilitate best practices when it comes to group work.
