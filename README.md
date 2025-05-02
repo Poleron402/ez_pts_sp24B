@@ -24,6 +24,7 @@ Click merge.
 <br>
 And confirm. Now your remote has branches for development, and the main is up to date so your collaborators can pull the most recent changes on their local project.
 ----------------------------------------------------------------------------------------------------
+
 ## Issues
 Think of issues as of a TODO list but in a GitHub fashion. Issues allow you to pile up your Project TODOs and ideas into one spot.
 Let's create one<br>
