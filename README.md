@@ -23,7 +23,7 @@ Click merge.
 <img width="600" alt="Screenshot 2024-04-17 at 12 35 56 PM" src="https://github.com/Poleron402/ez_pts_sp24B/assets/89750832/117fa775-26af-4566-832f-b6468731f189">
 <br>
 And confirm. Now your remote has branches for development, and the main is up to date so your collaborators can pull the most recent changes on their local project.
-----------------------------------------------------------------------------------------------------
+<hr>
 
 ## Issues
 Think of issues as of a TODO list but in a GitHub fashion. Issues allow you to pile up your Project TODOs and ideas into one spot.
